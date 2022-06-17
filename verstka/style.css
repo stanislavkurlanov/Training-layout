@@ -28,6 +28,16 @@ html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, font, img, 
     list-style: none;
 }
 
+
+html * {
+	max-height: 1000000px;
+}
+
+html {
+    height: 100%;
+}
+
+
 body {
     font: normal 400 16px / 26px 'Roboto', Arial, Helvetica, sans-serif;
     letter-spacing: 0.05em;
@@ -46,19 +56,6 @@ header {
     
 }
 
-.container_contact {
-    height: 379px;
-    padding-top: 38px;
-    box-sizing: border-box;
-    width: 100%;
-    flex: none;
-    background-image: url(../img/head-cont.png);
-    background-size: 100% 250px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-
-
 header .container{
     width: 1140px;
     margin: 0 auto;
@@ -74,7 +71,7 @@ header .container:first-child {
 .container a {
     display: block;
     height: 48px;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -82,7 +79,6 @@ header .container:first-child {
     width: 46px;
     background-image: url('../img/logo.png');
 }
-
 .user {
     width: 34px;
     background-image: url('../img/user.png');
@@ -96,9 +92,9 @@ header .container:last-child{
     background-repeat: no-repeat;
     background-position: right; 
 }
-
 header .container:last-child div{
     width: 510px;
+
 }
 
 header h1{
@@ -306,33 +302,11 @@ h2 {
     box-sizing: border-box;
 }
 
-.container_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 301px;
-    height: 668px;
-    margin-top: 78px;
-    background-image: url(../img/left-img-cont.png);
-    background-repeat: no-repeat;
-    background-position: center top
-}
-
-.container_left p{
-    box-sizing: border-box;
-    padding-top: 24px;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.6;
-}
-
 footer {
     flex: 0 0 auto;
     background: #316099;
     color: #fff;
-    width: 100%;
+
 }
 
 footer section + section {
@@ -402,3 +376,4 @@ footer button {
     margin: 64px 0 0;
     opacity: 0.4;
 }
+
