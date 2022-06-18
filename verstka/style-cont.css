@@ -261,15 +261,20 @@ input[type=submit]{
     cursor: pointer;
 }
 
-.maps{
-    width: 100%;
+.maps {
+    display: flex;
+    justify-content: center;
+    margin-left: 213px;
+    margin-right: 213px;
+    margin-bottom: 112px;
+    /* width: 100%;
     height: 480px;
     background-image: url(../img/maps.png);
     background-size: 940px 480px;
     background-position: center top;
     background-repeat: no-repeat;
-    margin-bottom: 112px;
-}
+    margin-bottom: 112px; */
+} 
 
   footer {
     flex: 0 0 auto;
